@@ -3,7 +3,7 @@ module.exports.hello = async (event) => {
   return {
     statusCode: 200,
     body: JSON.stringify({
-      message: "Hello from AWS Lambda using DevOps By Pradee",
+      message: "Hello from AWS Lambda using DevOps Test ",
     }),
   };
 };
